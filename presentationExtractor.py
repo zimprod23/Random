@@ -195,10 +195,10 @@ def presExtractor():
            
        else:
                     # Specify the path to the input video file
-            video_path = input("Enter the path to the video : ")#"C:/Users/LEGION/Desktop/KHraaaaaaaaaaaaaaaaaaaa/v1.mp4"
+            video_path = input("Enter the path to the video : ")
 
             # Specify the output directory where the frames will be saved
-            output_directory = input("Where are you willing to store the presentation : ")#"C:/Users/LEGION/Desktop/KHraaaaaaaaaaaaaaaaaaaa/demoOutput"
+            output_directory = input("Where are you willing to store the presentation : ")
 
             videop = VideoProc(video_path=video_path,output_dir=output_directory)
             videop.initializeProc()
